@@ -10,8 +10,7 @@ Juego* juego = 0;
 int main(int argc, char** argv) {
 
     juego = new Juego();
-    cout<<"Hola"<<endl;
-
+    juego->iniciar("Nanobotttt", 100, 100, 0);
     juego->correr();
 
     juego->limpiar();
